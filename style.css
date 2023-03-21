@@ -1,0 +1,472 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/*Aqui ya empezamos a utilizar flexbox, con flexdirection, justify content*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+    height: 2.5cm;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: 0.7s;
+    background-color: rgb(255, 255, 255); 
+}
+
+
+header.abajo{
+    background: #fff;
+    border: 4px solid rgb(127, 120, 226);
+}
+
+/*Aqui volvemos a utilizar flexbox, empezamos a hacer las diferentes secciones del nav*/
+.menu1{
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 170);
+    font-size: 129%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.menu2{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.menu3{
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.menu4{
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.menu5{
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.menu6{
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);  
+}
+.menu7{
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);  
+}
+.menu8{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgig{
+    height: 1.4cm;
+}
+.menu9{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*Aqui estamos colocando las imagenes de las redes sociales para que les lleven directamente a la cuenta de la empresa*/
+.imgtwt{
+    height: 1.2cm;
+}
+
+.sect{
+    height: 0.1cm;
+    margin-top: 2.6cm;
+    background-color: blue;
+}
+
+
+
+
+
+
+/*empezamos a maquetar donde iria el pequeño gráfico con un porcentaje o una cantidad en cuanto a la fluctuacion de la criptomoneda*/
+.graficos{
+    border: 1px solid rgb(255, 255, 255);
+    height: 5cm;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    border-radius: 0.3cm;
+    
+}
+
+.gf11{
+    border: 1px solid rgb(255, 255, 255);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+.gf12{
+    border: 1px solid rgb(255, 255, 255);
+    height: 80%;
+    
+}
+
+
+.grafico1{
+    border: 1px solid rgb(255, 255, 255);
+    width: 11.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grafico2{
+    border: 1px solid rgb(255, 255, 255);
+    width: 11.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grafico3{
+    border: 1px solid rgb(255, 255, 255);
+    width: 11.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.grafico4{
+    border: 1px solid rgb(255, 255, 255);
+    width: 11.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.grafico5{
+    border: 1px solid rgb(255, 255, 255);
+    width: 11.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.grafico6{
+    border: 1px solid rgb(255, 255, 255);
+    width: 11.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Aqui aplicamos el grid templete areas para colocar nuestros botones y el buscador de una forma tanto horizontal como vertical. Lo activamos con el display grid*/
+.grafico7{
+    border: 1px solid rgb(255, 255, 255);
+    width: 31%;
+    display: grid;
+    grid-template-areas: 'is1 is2'
+                            'is3 is3';
+
+}
+
+/*aqui tenemos los botones para iniciar sesion y registrarse que nos envian a un formulario para rellenar*/
+.inicio_sesion{
+    display: grid;
+    grid-area: is1;
+}
+
+.registrar{
+    display: grid;
+    grid-area: is2;
+}
+
+.buscar{
+    display: grid;
+    grid-area: is3;  
+    display: flex;
+    justify-content: center;
+}
+
+.buscar_caja{
+    height: 50%;
+    width: 50%;
+}
+
+.inicio_sesion{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.registrar{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.botoninciosesion{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.2cm;
+    background-color: rgb(0, 32, 244);
+    color: aliceblue;
+    width: 50%;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    height: 50%;
+}
+
+.registrarse{
+    border: 1px solid rgb(0, 4, 255);
+    border-radius: 0.2cm;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 28, 246);
+    width: 50%;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    height: 50%;
+}
+
+.linea1{
+
+    height: 0.09cm;
+    background-color: rgb(97, 94, 94);
+}
+
+.linea2{
+    height: 1.5cm;
+}
+
+/*Aqui es donde empieza la parte principal de la página, con las diferentes secciones de noticias*/
+.partedelmedio{
+    height: auto;
+    background-color: rgb(161, 178, 232);
+}
+
+.pd1{
+    width: 90%;
+    margin: 5%;
+    height: 25cm; 
+}
+
+.imag1{
+
+    display: flex;
+    width: auto;
+    
+}
+
+.ladoderechoarriba{
+    display: flex;
+}
+
+.lda1{
+
+    width: 7cm;
+    display: grid;
+    grid-template-rows: 7% 93%;
+    justify-content: center;
+    font-weight: bold;
+    color: blue;
+    
+    
+}
+
+.lda2{
+
+    width: 7cm;
+    display: grid;
+    grid-template-rows: 7% 93%;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Aqui usamos los grid template para colocar las diferentes partes en porcentajes y especificar lo que queremos que ocupe cada seccion*/
+.lda12{
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+}
+
+.lda21{
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+}
+
+
+
+
+.articulos-actualidad{
+
+    height: 4cm;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.noticias-actualidad{
+    background-color: rgb(200, 226, 226);
+    height: 4cm;
+    padding: 10px;
+    display: flex;
+}
+
+.n-a1{
+    width: 10cm;
+    font-size: 0.7cm;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Aqui empieza la parte de los anuncioin. Los primeros anuncios que salen en la pag debajo de noticias de actualidad*/
+.pd2{
+    height: 3.5cm;
+    background-color: rgb(240, 144, 109);
+    text-align: center;
+    font-size: 2cm;
+    font-weight: bold;
+}
+
+.pd3{
+
+    height: 1cm;
+}
+
+/*Aqui volvemos a utilizar el display grid y grid template areas*/
+.anuncios-grandes{
+    padding: 40px;
+    height: auto;
+    
+    display: grid;
+    grid-template-areas: 'ag1 ag2'
+                         'ag3 ag4'
+                         'ag5 ag6';
+
+    
+}
+
+.ag1{
+  
+    height: 6cm;
+    width: 12cm;
+    margin: 1cm;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.ag2{
+    height: 6cm;
+    width: 12cm;
+    margin: 1cm;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ag3{
+    
+    height: 6cm;
+    width: 12cm;
+    margin: 1cm;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ag4{
+    height: 6cm;
+    width: 12cm;
+    margin: 1cm;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ag5{
+    height: 6cm;
+    width: 12cm;
+    margin: 1cm;
+    display: flex;
+    flex-direction: column-reverse; 
+}
+
+.ag6{
+    height: 6cm;
+    width: 12cm;
+    margin: 1cm;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.imgartgra{
+    height: 6cm;
+    width: auto;
+    border-radius: 0.5cm;
+}
+
+.agparrafos{
+    font-weight: bold;
+    font-size: 0.6CM;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.pie{
+    height:10cm ;
+    background-color: red ;
+}
+
+    
+
